@@ -1,1 +1,51 @@
-/* Write your CSS here! */
+.center {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 8px;
+}
+
+.row {
+    display: flex;
+}
+
+body {
+    margin: 8px;
+    display: block;
+  }
+
+#mainHeading {
+    color: red;
+}
+
+h2 {
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+}
+
+p {
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+}
+
+#list-color {
+    color: red;
+  }
+
+#testP {
+
+}
+
+.funParagraph {
+    color: green;
+}
