@@ -12,7 +12,7 @@
 
 .columnThreeImages {
     flex: 33.33%;
-    padding: 8px;
+    padding: 10px;
 }
 
 .columnTwoImages {
@@ -55,13 +55,18 @@ h2 {
     background-color: rgb(233, 238, 243);
     border: 2px solid black;
     border-radius: 10px;
-    padding: 5px;
     display: inline-block;
     padding-top: 3px;
     padding-right: 10px;
     padding-bottom: 3px;
     padding-left: 10px;
     margin-left: 100px;
+    margin-top: 50px;
+}
+
+h3 {
+    color:blue;
+    text-decoration: underline;
 }
 
 p {
@@ -70,7 +75,6 @@ p {
     background-color: rgb(233, 238, 243);
     border: 2px solid black;
     border-radius: 10px;
-    padding: 5px;
     display: inline-block;
     padding-top: 3px;
     padding-right: 10px;
@@ -84,7 +88,6 @@ figcaption {
     font-weight: bold;
     font-size: medium;
     background-color: rgb(233, 238, 243);
-    padding: 1em;
     display: inline-block;
     padding-top: 0px;
     padding-right: 10px;
@@ -97,10 +100,6 @@ img {
     border: 8px solid rgb(233, 238, 243);
 }
 
-#list-color {
-    color: red;
-}
-
 #testP {
     font-size: medium;
     margin-left: 0px;
@@ -108,4 +107,20 @@ img {
 
 .funParagraph {
     color: rgb(4, 196, 29);
+}
+
+ol {
+    padding-left: 0px;
+    color:blue;
+    font-weight: bold;
+}
+
+#favoriteRides {
+    background-color: rgb(233, 238, 243);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px dashed blue;
+    border-radius: 10px;
 }
